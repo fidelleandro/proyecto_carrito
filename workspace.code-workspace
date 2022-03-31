@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"path": "..\\tienda"
+		},
+		{
+			"path": "."
+		},
+		{
+			"name": "SSH FS - monark",
+			"uri": "ssh://monark/var/www/monark.creantiscrm.com"
+		}
+	],
+	"settings": {}
+}
