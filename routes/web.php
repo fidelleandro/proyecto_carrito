@@ -9,6 +9,8 @@ Route::get('/', function () {
 });
 /*Invocando la clase ProductoController y usar el metodo index; con la ruta /producto*/
 Route::get('/productos',[ProductoController::class,'index']);
+Route::get('/crear-producto',[ProductoController::class,'crear_producto']);
+Route::post('/guardar1-producto',[ProductoController::class,'guardar_producto'])->name('saveProduct');
 
 Route::get('/dashboard', function () {
     return view('dashboard');
